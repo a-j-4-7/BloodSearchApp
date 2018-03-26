@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/appBackground</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="edit_text_style">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/mytext</item>
+        <item name="android:textColor">@color/mytext</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textStyle">italic</item>
+
+
+    </style>
+
+    <style name="register_edit_text_style">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+
+
+
+    </style>
+    <style name="text_view_style">
+
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/mytext</item>
+        <item name="android:padding">20dp</item>
+
+    </style>
+
+    <style name="button_style">
+
+        <item name="android:textColor">@color/mytext</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="register_button_style">
+
+        <item name="android:textColor">@color/colorPrimary</item>
+
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="gender">
+
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+
+
+
+    </style>
+
+    <style name="tabitemtxts">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mytext</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="fragment_details_cardview">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+    <style name="dialog_style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black_text</item>
+
+
+
+    </style>
+
+    <style name="register_activity_theme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/black_text</item>
+    </style>
+</resources>

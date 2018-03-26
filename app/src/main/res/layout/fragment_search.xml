@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sachet.bloodsearch.SearchFragment">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/appBackground"
+
+
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Blood group"
+                android:textAllCaps="true"
+                android:textColor="@color/mytext"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/bloodgroup_spinner"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:text="Location"
+            android:textColor="@color/mytext"
+            android:textSize="25sp" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/location_spinner"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+
+        <Button android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_style"
+            style="@style/button_style"
+            android:text="S e a r c h"
+          />
+
+
+
+
+        <ListView
+
+            android:background="@color/red"
+            android:id="@+id/search_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>

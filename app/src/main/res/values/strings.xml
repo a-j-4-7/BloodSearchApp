@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Blood Search</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string-array name="spinner_bloodgroup">
+        <item>"Select Your Blood Group"</item>
+        <item>"A+"</item>
+        <item>"A-"</item>
+        <item>"B+"</item>
+        <item>"B-"</item>
+        <item>"AB+"</item>
+        <item>"AB-"</item>
+        <item>"O+"</item>
+        <item>"O-"</item>
+
+    </string-array>
+
+    <string-array name="spinner_location">
+        <item>"Select Your Location"</item>
+        <item>"Kathmandu"</item>
+        <item>"Bhaktapur"</item>
+        <item>"Lalitpur"</item>
+        <item>"Pokhara"</item>
+        <item>"Dharan"</item>
+        <item>"Butwal"</item>
+        <item>"Biratnagar"</item>
+        <item>"Birgunj"</item>
+        <item>"Hetauda"</item>
+        <item>"Jhapa"</item>
+        <item>"Chitwan"</item>
+        <item>"Banepa"</item>
+
+
+    </string-array>
+
+    <string name="title_text">"jhgjhgjhhk"</string>
+    <string name="content_text">"12345646546545435454343543543543543543543543543543543543543543543543"</string>
+
+
+
+</resources>

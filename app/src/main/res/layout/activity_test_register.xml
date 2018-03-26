@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sachet.bloodsearch.TestRegisterActivity">
+
+    <EditText
+        android:id="@+id/test_username"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Username"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/test_password"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Password"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/test_email"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Email"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/test_phone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Phone No."
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/test_address"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Address"
+        android:textSize="25sp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/test_register_button"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:text="REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

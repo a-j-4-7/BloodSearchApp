@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sachet.bloodsearch.DonorListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/bloodlist_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/recyclerview_bloodlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        </ListView>
+
+
+    </LinearLayout>
+</FrameLayout>
