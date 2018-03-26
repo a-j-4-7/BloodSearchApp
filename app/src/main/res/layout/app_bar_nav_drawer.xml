@@ -29,7 +29,7 @@
                     android:drawablePadding="10dp"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="10dp"
-                    android:text="Blood Search"
+                    android:text="Blood  Search"
                     android:textAllCaps="true"
                     android:textColor="@color/mytext"
                     android:textSize="25sp"

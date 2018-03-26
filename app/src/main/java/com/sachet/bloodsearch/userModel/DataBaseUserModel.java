@@ -1,8 +1,5 @@
 package com.sachet.bloodsearch.userModel;
 
-/**
- * Created by AJ on 3/16/2018.
- */
 
 public class DataBaseUserModel {
     private String fullName;

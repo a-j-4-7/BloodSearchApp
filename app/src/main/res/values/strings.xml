@@ -47,9 +47,33 @@
 
     </string-array>
 
-    <string name="title_text">"jhgjhgjhhk"</string>
-    <string name="content_text">"12345646546545435454343543543543543543543543543543543543543543543543"</string>
+    <string name="eligibilities">"Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.
 
+Donor of 18-60 years of age and having a minimum weight of 50Kg can donate blood.
+
+Donor’s Hemoglobin level is 12.5% minimum.
+
+A donor can again donate blood after 3 months of your last donation of blood.
+
+Pulse rate must be between 50 to 100mm without any irregularities.
+
+BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.
+
+Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius."</string>
+
+    <string name="non_eligibilities">"Donors should not suffer from Cardiac arrest, hypertension, kidney alignments, epilepsy or diabetics.
+
+Ladies with a bad miscarriage should avoid donating blood for the next 6 months.
+
+If donor already donated blood or have been treated for malaria within the last three months.
+
+If donor has undergone any immunization within the past one month.
+
+If donor has consumed alcohol within the last 24 hours.
+
+If donor has HIV+.
+
+If donor had a dental work in last 24 hours and wait for one month if donor had a major dental procedure."</string>
 
 
 </resources>

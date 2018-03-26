@@ -23,7 +23,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" android:theme="@style/register_activity_theme">
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/register_activity_theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,7 +44,8 @@
         </activity>
         <activity
             android:name=".EditDetailsActivity"
-            android:parentActivityName=".NavDrawerActivity" android:theme="@style/register_activity_theme">
+            android:parentActivityName=".NavDrawerActivity"
+            android:theme="@style/register_activity_theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,7 +53,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".BloodlistViewActivity" />
-
         <activity android:name=".DetailsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,15 +61,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutActivity" />
-        <activity android:name=".WhyDonateActivity" />
+        <activity android:name=".WhyDonateActivity" android:parentActivityName=".NavDrawerActivity"> </activity>
         <activity android:name=".TestRegisterActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".DonorGuidelinesActivity" android:parentActivityName=".NavDrawerActivity"></activity>
     </application>
 
 </manifest>
