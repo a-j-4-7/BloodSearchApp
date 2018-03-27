@@ -4,23 +4,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/appBackground"
+    android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context="com.sachet.bloodsearch.EditDetailsActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:elevation="5dp"
-        android:minHeight="?actionBarSize"
-        app:titleMarginTop="10dp"
-        app:title="EDIT DETAILS"
-        app:titleTextColor="@color/mytext"
-        app:navigationIcon="@drawable/backarrow"
-        >
-    </android.support.v7.widget.Toolbar>
+   <include
+       layout="@layout/toolbar_design">
+   </include>
 
     <ScrollView
         android:layout_width="match_parent"

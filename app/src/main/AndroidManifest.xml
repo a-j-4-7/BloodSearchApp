@@ -62,13 +62,6 @@
         </activity>
         <activity android:name=".AboutActivity" />
         <activity android:name=".WhyDonateActivity" android:parentActivityName=".NavDrawerActivity"> </activity>
-        <activity android:name=".TestRegisterActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity android:name=".DonorGuidelinesActivity" android:parentActivityName=".NavDrawerActivity"></activity>
     </application>
 

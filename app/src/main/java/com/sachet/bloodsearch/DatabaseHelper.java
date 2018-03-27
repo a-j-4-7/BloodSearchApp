@@ -9,7 +9,6 @@ import android.database.sqlite.SQLiteStatement;
 import android.util.Log;
 
 import com.sachet.bloodsearch.helper.UserInfo;
-import com.sachet.bloodsearch.userModel.DataBaseUserModel;
 
 import java.util.ArrayList;
 
@@ -22,7 +21,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private byte[] userImage;
     static String name = "bloodsearch";
     static int version = '1';
-    DataBaseUserModel dataBaseUserModel;
+
 
     String createTableUserSql = "CREATE TABLE if not exists `bloodbank` (\n" +
             "\t`id`\tINTEGER PRIMARY KEY AUTOINCREMENT,\n" +
@@ -92,33 +91,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return list;
     }
 
-
-    public ArrayList<DataBaseUserModel> getUserInfo(String username) {
-        ArrayList<DataBaseUserModel> userModels = new ArrayList<>();
-        String sql = "Select * from bloodbank where username = '" + username + "'";
-        Cursor c = getWritableDatabase().rawQuery(sql, null);
-        c.moveToFirst();
-        if (c.getCount()>0 && !c.isAfterLast()){
-            for (int i =0;i<c.getCount();i++) {
-                fullname = c.getString(c.getColumnIndex("fullname"));
-                gender = c.getString(c.getColumnIndex("gender"));
-                age = c.getString(c.getColumnIndex("age"));
-                contact = c.getString(c.getColumnIndex("phone"));
-                email = c.getString(c.getColumnIndex("email"));
-                city = c.getString(c.getColumnIndex("location"));
-                bloodgroup = c.getString(c.getColumnIndex("bloodgroup"));
-                userName = c.getString(c.getColumnIndex("username"));
-                userImage = c.getBlob(c.getColumnIndex("image"));
-
-                dataBaseUserModel = new DataBaseUserModel(fullname,
-                        userName,age,gender,bloodgroup,city,contact,email,userImage);
-                userModels.add(dataBaseUserModel);
-                c.moveToFirst();
-            }
-        }
-        c.close();
-        return userModels;
-    }
 
     public UserInfo getUserDetails(String userName){
         String sql = "Select * from bloodbank where username='" + userName + "'";

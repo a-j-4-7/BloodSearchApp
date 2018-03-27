@@ -13,7 +13,7 @@
     <com.github.florent37.shapeofview.shapes.ArcView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/appBackground"
+        android:background="@drawable/gradient"
         android:elevation="5dp"
         app:arc_cropDirection="outside"
         app:arc_height="20dp"
@@ -39,7 +39,7 @@
     <com.github.florent37.shapeofview.shapes.ArcView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/appBackground"
+        android:background="@drawable/gradient"
         android:elevation="5dp"
         app:arc_cropDirection="inside"
         app:arc_height="20dp"
@@ -92,7 +92,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="4. Lowers the risk of Cancer."
+                android:text="4. Lowers the risk of cancer."
                 android:textColor="@color/mytext"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -114,7 +114,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="6. Saves valuable lives of the casualties"
+                android:text="6. Saves valuable lives of the casualties."
                 android:textColor="@color/mytext"
                 android:textSize="20sp"
                 android:textStyle="bold" />

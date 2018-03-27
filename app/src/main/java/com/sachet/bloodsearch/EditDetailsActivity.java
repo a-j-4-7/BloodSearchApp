@@ -62,7 +62,7 @@ public class EditDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_details_activityy);
 
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar_design);
         spinner1 = findViewById(R.id.edit_details_location_spinner);
         spinner2 = findViewById(R.id.edit_details_bloodgroup_spinner);
         uploadimg = findViewById(R.id.edit_details_uploadimg_btn);

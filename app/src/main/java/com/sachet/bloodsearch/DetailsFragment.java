@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import com.sachet.bloodsearch.helper.UserDataSharedPreference;
 import com.sachet.bloodsearch.helper.UserInfo;
-import com.sachet.bloodsearch.userModel.DataBaseUserModel;
+
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
@@ -33,8 +33,6 @@ public class DetailsFragment extends Fragment {
     Button ed_button;
     String userName;
     UserDataSharedPreference userDataSharedPreference;
-    DataBaseUserModel userModel;
-    ArrayList<DataBaseUserModel> dataModel = new ArrayList<>();
    private byte[] userPhoto;
 
 
@@ -73,6 +71,7 @@ public class DetailsFragment extends Fragment {
 //        Log.i(TAG, "onCreateView: username " + String.valueOf(userModel.getUserName()));
         return view;
     }
+
 
     public void populateData(){
 

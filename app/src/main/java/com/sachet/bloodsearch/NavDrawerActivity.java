@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class NavDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -109,8 +110,7 @@ public class NavDrawerActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_menu_about) {
-            Intent intent = new Intent(this, AboutActivity.class);
-            startActivity(intent);
+            Toast.makeText(this, "UNDER CONSTRUCTION !!!!", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_menu_logout) {
             showLogoutAlertDialog();
